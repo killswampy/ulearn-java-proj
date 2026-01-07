@@ -6,7 +6,7 @@ public class Main {
         var path = "data.csv";
         List<Order> orderList = Utilities.loadOrdersFromCSV(path);
         DataBase.Connection();
-        DataBase.CreateDB();
+        DataBase.CreateTable();
 //        DataBase.WriteDB(orderList);
         var chartData = DataBase.getUnitsSoldByRegion();
         Visualisation.barChartByMap(

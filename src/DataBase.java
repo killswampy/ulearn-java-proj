@@ -13,14 +13,14 @@ public class DataBase {
     public static void Connection(){
         try {
             conn = DriverManager.getConnection("jdbc:sqlite:Orders.s3db");
-            System.out.println("База Подключена!");
+//            System.out.println("База Подключена!");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
 
     }
 
-    public static void CreateDB(){
+    public static void CreateTable(){
         try {
             statmt = conn.createStatement();
             statmt.execute(
@@ -36,7 +36,7 @@ public class DataBase {
                         "total_profit DECIMAL(15, 2) NOT NULL" +
                         ");"
             );
-            System.out.println("Таблица создана или уже существует.");
+//            System.out.println("Таблица создана или уже существует.");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
