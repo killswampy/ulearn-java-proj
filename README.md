@@ -22,7 +22,9 @@ CSV-файл в excel
 <img width="1112" height="712" alt="image" src="https://github.com/user-attachments/assets/ecbd46be-515d-4305-90ea-ec3c8af42a5e" />
 
 Консольный вывод:
+
 <b>Страна с самым высоким общим доходом в евразии: Brunei, доход = 4587321.5200000005</b>
+
 <b>Подходящих стран не найдено</b>
 
 
